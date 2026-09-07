@@ -1,7 +1,708 @@
 {
   "date": "2026-09-07",
-  "status": "数据源更新失败，保留上一份有效数据",
-  "data_quality": "--",
-  "summary": "系统已部署，首次云端数据任务完成后将显示真实计算结果。",
-  "industries": []
+  "status": "云端自动更新成功",
+  "data_quality": "历史数据初始化阶段（当前采用行业横截面分位，历史积累后自动切换滚动分位）｜数据源：东方财富公开接口",
+  "summary": "当前拥挤度最高的行业包括：BK0433、BK0448、BK0454。机会雷达优先关注：BK0433、BK0448、BK0454。高拥挤意味着交易一致性较高，应重点防范波动放大和资金反转。",
+  "industries": [
+    {
+      "name": "BK0433",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK0448",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK0454",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK0458",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK0459",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK0482",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK0725",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1020",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1034",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1036",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1038",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1039",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1201",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1215",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1218",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1222",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1223",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1237",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1242",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1255",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1256",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1258",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1259",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1260",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1261",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1271",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1272",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1282",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1288",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1289",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1290",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1292",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1296",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1297",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1298",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1299",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1300",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1305",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1316",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1319",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1322",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1325",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1326",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1327",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1328",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1329",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1332",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1334",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1336",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1338",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1339",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1340",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1405",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1407",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1409",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1410",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1411",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1433",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1437",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1443",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1454",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1455",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1457",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1462",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1478",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1491",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1495",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1502",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1504",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1505",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1507",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1508",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1509",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1510",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1512",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1513",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1514",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1515",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1516",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1517",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1518",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1551",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1552",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1553",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1556",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1559",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1560",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1561",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1562",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1563",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1565",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1580",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1581",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1582",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1585",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1591",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1592",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1593",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1618",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    },
+    {
+      "name": "BK1625",
+      "crowding": NaN,
+      "change20": 0.0,
+      "risk": "低拥挤",
+      "opportunity": NaN
+    }
+  ]
 }
