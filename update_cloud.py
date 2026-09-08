@@ -80,21 +80,61 @@ def historical_scores(df):
     f["crowding"]=(.25*f["price_score"]+.20*f["volume_score"]+.20*f["turn_score"]+.20*f["flow_score"]+7.5).clip(0,100)
     return f
 
-def backfill(rows,days=180):
-    end=datetime.date.today().strftime("%Y%m%d");allrows=[]
+def backfill(rows, target_names, days=180):
+    """只补指定缺失行业；单行业失败不影响其它行业，并返回成功/失败清单。"""
+    end=datetime.date.today().strftime("%Y%m%d")
+    allrows=[]; ok=[]; failed=[]
+    wanted=set(target_names)
     for i,r in enumerate(rows):
+        name=str(r.get("name",""))
+        if name not in wanted: continue
         code=str(r.get("code",""))
-        if not code.startswith("BK"):continue
+        if not code.startswith("BK"):
+            failed.append(name); continue
         try:
-            j=east_json("https://push2his.eastmoney.com/api/qt/stock/kline/get",{"secid":"90."+code,"fields1":"f1,f2,f3,f4,f5,f6","fields2":"f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61","klt":"101","fqt":"0","end":end,"lmt":days,"_":int(time.time()*1000)})
-            for line in j.get("data",{}).get("klines",[]):
+            j=east_json("https://push2his.eastmoney.com/api/qt/stock/kline/get",{
+                "secid":"90."+code,"fields1":"f1,f2,f3,f4,f5,f6",
+                "fields2":"f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+                "klt":"101","fqt":"0","end":end,"lmt":days,
+                "_":int(time.time()*1000)
+            })
+            klines=j.get("data",{}).get("klines",[])
+            if len(klines)<20: raise RuntimeError("too few klines")
+            count=0
+            for line in klines:
                 p=line.split(",")
-                if len(p)>=11:allrows.append({"date":p[0],"name":r["name"],"close":num(p[2]),"pct":num(p[8]),"amount":num(p[6]),"turnover":num(p[10])})
-        except Exception:pass
-        if i%10==0:time.sleep(.3)
-    if not allrows:return []
+                if len(p)>=11:
+                    allrows.append({"date":p[0],"name":name,"close":num(p[2]),
+                                    "pct":num(p[8]),"amount":num(p[6]),
+                                    "turnover":num(p[10])})
+                    count+=1
+            if count>=20: ok.append(name)
+            else: failed.append(name)
+        except Exception:
+            failed.append(name)
+        time.sleep(.35 + random.random()*.25)
+    if not allrows: return [],ok,failed
     f=historical_scores(pd.DataFrame(allrows).dropna(subset=["close"]).sort_values(["name","date"]))
-    return [{"date":str(x.date),"name":str(x.name),"crowding":round(finite(x.crowding),1),"close":round(finite(x.close,0),3),"pct":round(finite(x.pct,0),2)} for x in f.itertuples()]
+    data=[{"date":str(x.date),"name":str(x.name),
+           "crowding":round(finite(x.crowding),1),
+           "close":round(finite(x.close,0),3),
+           "pct":round(finite(x.pct,0),2)} for x in f.itertuples()]
+    return data,ok,failed
+
+def coverage_map(series):
+    out={}
+    for x in series:
+        n=x.get("name"); d=x.get("date")
+        if n and d: out.setdefault(n,set()).add(str(d))
+    return {k:len(v) for k,v in out.items()}
+
+def choose_backfill_batch(rows, series, min_days=120, batch_size=20):
+    cov=coverage_map(series)
+    names=[str(r["name"]) for r in rows]
+    missing=[n for n in names if cov.get(n,0)<min_days]
+    # 每次优先补最缺数据的行业，保证不会因为前一批成功就停止
+    missing.sort(key=lambda n:cov.get(n,0))
+    return missing[:batch_size],cov,missing
 
 def save_result(result):
     OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False),encoding="utf-8")
@@ -134,16 +174,42 @@ try:
         out.append({"name":name,"crowding":score,"change20":ch,"risk":risk,"opportunity":opp})
     out.sort(key=lambda x:x["crowding"],reverse=True)
     series=json.loads(SERIES.read_text(encoding="utf-8")) if SERIES.exists() else []
-    if len(series)<500:
-        seeded=backfill(rows,180)
-        if seeded:series=seeded
+    # 关键修复：按“每个行业”的历史覆盖天数判断，而不是按总数据条数判断
+    batch,cov,all_missing=choose_backfill_batch(rows,series,min_days=120,batch_size=20)
+    added=[]; ok=[]; failed=[]
+    if batch:
+        added,ok,failed=backfill(rows,batch,180)
+        if added:
+            # 删除这些行业已有的历史，避免重复后再写入完整补齐结果
+            done=set(ok)
+            series=[x for x in series if not (x.get("name") in done and x.get("date")!=today_date)]
+            series.extend(added)
+    # 统一写入当天最新实时评分
     series=[x for x in series if x.get("date")!=today_date]
     raw={str(r["name"]):r for _,r in today.iterrows()}
-    series += [{"date":today_date,"name":x["name"],"crowding":x["crowding"],"close":round(finite(raw[x["name"]]["close"],0),3),"pct":round(finite(raw[x["name"]]["pct"],0),2)} for x in out if x["name"] in raw]
+    series += [{"date":today_date,"name":x["name"],"crowding":x["crowding"],
+                "close":round(finite(raw[x["name"]]["close"],0),3),
+                "pct":round(finite(raw[x["name"]]["pct"],0),2)}
+               for x in out if x["name"] in raw]
     series.sort(key=lambda x:(x["date"],x["name"]))
     SERIES.write_text(json.dumps(series,ensure_ascii=False,separators=(",",":"),allow_nan=False),encoding="utf-8")
+
+    final_cov=coverage_map(series)
+    industry_names=[str(r["name"]) for r in rows]
+    complete=sum(1 for n in industry_names if final_cov.get(n,0)>=120)
+    missing_count=len(industry_names)-complete
     top=[x["name"] for x in out[:3]];opps=sorted(out,key=lambda x:x["opportunity"],reverse=True)[:3]
-    result={"date":today_date,"status":"云端自动更新成功","data_quality":("五因子实时评分｜历史数据已初始化" if len(series)>=500 else "五因子实时评分｜历史数据持续积累")+"｜数据源："+source,"summary":"当前拥挤度较高："+ "、".join(top)+"。机会雷达关注："+ "、".join(x["name"] for x in opps)+"。","industries":out,"history_points":len(series)}
+    progress=f"历史补齐进度 {complete}/{len(industry_names)} 个行业≥120日"
+    if batch:
+        progress += f"｜本次补齐成功 {len(ok)}/{len(batch)}"
+        if failed: progress += f"｜失败 {len(failed)} 个，下次自动重试"
+    quality="五因子实时评分｜"+progress+"｜数据源："+source
+    result={"date":today_date,"status":"云端自动更新成功",
+            "data_quality":quality,
+            "summary":"当前拥挤度较高："+ "、".join(top)+"。机会雷达关注："+ "、".join(x["name"] for x in opps)+"。"+
+                      (f" 历史数据仍有{missing_count}个行业待补齐，系统将分批自动完成。" if missing_count else " 全部行业历史数据已完成初始化。"),
+            "industries":out,"history_points":len(series),
+            "history_progress":{"complete":complete,"total":len(industry_names),"missing":missing_count,"batch":batch,"failed":failed}}
     save_result(result);print(result["status"],len(out),len(series))
 except Exception as e:
     # 核心原则：失败绝不清空上一份有效数据
