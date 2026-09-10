@@ -113,7 +113,11 @@ try:
         g=g.sort_values("date").tail(750)
         def hr(s):
             s=pd.to_numeric(pd.Series(s),errors="coerce").dropna(); return s.rank(pct=True).iloc[-1]*100 if len(s)>=20 else np.nan
-        def nr(col): return finite(pd.to_numeric(c[col],errors="coerce").rank(pct=True).get(name,50)*100,50)
+        def nr(col):
+            s=pd.to_numeric(c[col],errors="coerce")
+            ranked=s.rank(pct=True)
+            x=ranked.get(name,np.nan)
+            return float(x*100) if pd.notna(x) and math.isfinite(float(x)) else 50.0
         vals=[hr(g["close"].pct_change(20)),hr(g["amount"]),hr(g["turnover"]),hr(g["amount"].pct_change(5))]
         vals=[nr("pct") if not math.isfinite(finite(v,np.nan)) else v for v in vals]
         val=np.nanmean([hr(g["pe"]),hr(g["pb"])]); val=np.nanmean([nr("pe"),nr("pb")]) if not math.isfinite(finite(val,np.nan)) else val
