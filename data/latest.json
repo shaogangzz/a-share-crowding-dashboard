@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "status": "云端自动更新成功",
+  "status": "本次更新失败，展示上一份有效数据｜RuntimeError('实时行情获取失败: RetryError(MaxRetryError(\"HTTPSConnectionPool(host=\\'push2.eastmoney.com\\', port=443): Max retri",
   "data_quality": "五因子实时评分｜历史完整 100/100 个行业≥200交易日｜本次成功 100/100｜并发8线程｜数据源：东方财富公开行情",
   "summary": "当前拥挤度较高：其他家电Ⅱ、其他家电Ⅲ、燃料电池。机会雷达关注：纺织鞋类制造、家用电器、铜。全部行业历史数据已完成初始化。",
   "industries": [
