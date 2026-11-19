@@ -1,365 +1,351 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "status": "云端自动更新成功",
   "data_quality": "五因子实时评分｜历史完整 100/100 个行业≥200交易日｜本次成功 100/100｜并发8线程｜数据源：东方财富公开行情",
-  "summary": "当前拥挤度较高：通信应用增值服务、印制电路板、通信服务。机会雷达关注：装修装饰Ⅱ、装修装饰Ⅲ、钢铁。全部行业历史数据已完成初始化。",
+  "summary": "当前拥挤度较高：集成电路制造、集成电路封测、稀土。机会雷达关注：商业地产、房屋建设Ⅱ、房屋建设Ⅲ。全部行业历史数据已完成初始化。",
   "industries": [
     {
-      "name": "通信应用增值服务",
-      "crowding": 92.8,
+      "name": "集成电路制造",
+      "crowding": 96.0,
       "change20": 0,
       "risk": "极度拥挤",
-      "opportunity": 33.1
+      "opportunity": 32.5
     },
     {
-      "name": "印制电路板",
-      "crowding": 92.2,
+      "name": "集成电路封测",
+      "crowding": 94.5,
       "change20": 0,
       "risk": "极度拥挤",
-      "opportunity": 36.9
+      "opportunity": 34.0
     },
     {
-      "name": "通信服务",
-      "crowding": 91.7,
+      "name": "稀土",
+      "crowding": 92.1,
       "change20": 0,
       "risk": "极度拥挤",
-      "opportunity": 39.2
+      "opportunity": 35.8
     },
     {
-      "name": "橡胶助剂",
-      "crowding": 91.1,
+      "name": "半导体设备",
+      "crowding": 91.5,
       "change20": 0,
       "risk": "极度拥挤",
-      "opportunity": 34.8
+      "opportunity": 34.0
     },
     {
-      "name": "厨房小家电",
-      "crowding": 90.2,
+      "name": "氨纶",
+      "crowding": 89.0,
       "change20": 0,
       "risk": "极度拥挤",
-      "opportunity": 26.4
-    },
-    {
-      "name": "通信工程及服务",
-      "crowding": 89.3,
-      "change20": 0,
-      "risk": "极度拥挤",
-      "opportunity": 45.2
-    },
-    {
-      "name": "冰洗",
-      "crowding": 88.8,
-      "change20": 0,
-      "risk": "极度拥挤",
-      "opportunity": 42.0
-    },
-    {
-      "name": "元件",
-      "crowding": 88.1,
-      "change20": 0,
-      "risk": "极度拥挤",
-      "opportunity": 37.8
-    },
-    {
-      "name": "彩电",
-      "crowding": 88.1,
-      "change20": 0,
-      "risk": "极度拥挤",
-      "opportunity": 39.1
-    },
-    {
-      "name": "通信网络设备及器件",
-      "crowding": 86.2,
-      "change20": 0,
-      "risk": "极度拥挤",
-      "opportunity": 38.5
-    },
-    {
-      "name": "厨房电器",
-      "crowding": 85.3,
-      "change20": 0,
-      "risk": "极度拥挤",
-      "opportunity": 36.1
-    },
-    {
-      "name": "白色家电",
-      "crowding": 84.6,
-      "change20": 0,
-      "risk": "高拥挤",
       "opportunity": 43.0
     },
     {
-      "name": "电信运营商",
-      "crowding": 83.8,
+      "name": "彩电",
+      "crowding": 86.1,
       "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 41.7
+      "risk": "极度拥挤",
+      "opportunity": 38.8
     },
     {
-      "name": "集成电路制造",
-      "crowding": 80.7,
+      "name": "航空运输",
+      "crowding": 85.7,
+      "change20": 0,
+      "risk": "极度拥挤",
+      "opportunity": 46.4
+    },
+    {
+      "name": "空调",
+      "crowding": 84.8,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 43.3
+    },
+    {
+      "name": "光伏主材",
+      "crowding": 84.2,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 46.4
+    },
+    {
+      "name": "电子化学品Ⅱ",
+      "crowding": 83.3,
       "change20": 0,
       "risk": "高拥挤",
       "opportunity": 36.4
     },
     {
-      "name": "疫苗",
-      "crowding": 80.4,
+      "name": "电子化学品Ⅲ",
+      "crowding": 83.3,
       "change20": 0,
       "risk": "高拥挤",
-      "opportunity": 46.7
+      "opportunity": 36.4
     },
     {
-      "name": "通信",
-      "crowding": 80.2,
+      "name": "航空机场",
+      "crowding": 82.6,
       "change20": 0,
       "risk": "高拥挤",
-      "opportunity": 41.5
+      "opportunity": 47.4
     },
     {
-      "name": "空调",
-      "crowding": 79.6,
+      "name": "快递",
+      "crowding": 81.7,
       "change20": 0,
       "risk": "高拥挤",
-      "opportunity": 44.1
+      "opportunity": 44.2
     },
     {
-      "name": "集成电路封测",
-      "crowding": 78.8,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 38.7
-    },
-    {
-      "name": "纯碱",
-      "crowding": 78.2,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 48.1
-    },
-    {
-      "name": "火电设备",
-      "crowding": 78.1,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 37.2
-    },
-    {
-      "name": "焦炭Ⅱ",
-      "crowding": 75.9,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 47.6
-    },
-    {
-      "name": "焦炭Ⅲ",
-      "crowding": 75.9,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 47.6
-    },
-    {
-      "name": "半导体设备",
-      "crowding": 73.7,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 38.6
-    },
-    {
-      "name": "通信线缆及配套",
-      "crowding": 73.5,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 43.1
-    },
-    {
-      "name": "玻纤制造",
-      "crowding": 72.5,
-      "change20": 0,
-      "risk": "高拥挤",
-      "opportunity": 42.2
-    },
-    {
-      "name": "租赁",
-      "crowding": 71.9,
+      "name": "涂料",
+      "crowding": 80.7,
       "change20": 0,
       "risk": "高拥挤",
       "opportunity": 47.5
     },
     {
-      "name": "城商行Ⅲ",
-      "crowding": 71.6,
-      "change20": 3.8,
-      "risk": "高拥挤",
-      "opportunity": 28.1
-    },
-    {
-      "name": "农商行Ⅲ",
-      "crowding": 71.1,
-      "change20": 4.8,
-      "risk": "高拥挤",
-      "opportunity": 28.4
-    },
-    {
-      "name": "冶钢辅料",
-      "crowding": 70.7,
+      "name": "白色家电",
+      "crowding": 80.2,
       "change20": 0,
       "risk": "高拥挤",
-      "opportunity": 42.9
+      "opportunity": 44.3
     },
     {
-      "name": "航运",
+      "name": "厨房小家电",
+      "crowding": 76.8,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 26.3
+    },
+    {
+      "name": "信托",
+      "crowding": 76.7,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 44.7
+    },
+    {
+      "name": "冰洗",
+      "crowding": 76.4,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 45.2
+    },
+    {
+      "name": "电信运营商",
+      "crowding": 75.8,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 34.3
+    },
+    {
+      "name": "旅游零售Ⅱ",
+      "crowding": 75.6,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 39.8
+    },
+    {
+      "name": "旅游零售Ⅲ",
+      "crowding": 75.6,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 39.8
+    },
+    {
+      "name": "国际工程",
+      "crowding": 74.4,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 45.6
+    },
+    {
+      "name": "洗护用品",
+      "crowding": 72.1,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 41.5
+    },
+    {
+      "name": "分立器件",
+      "crowding": 71.2,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 50.2
+    },
+    {
+      "name": "保健品",
+      "crowding": 70.8,
+      "change20": 0,
+      "risk": "高拥挤",
+      "opportunity": 38.6
+    },
+    {
+      "name": "股份制银行Ⅲ",
       "crowding": 70.3,
+      "change20": 7.9,
+      "risk": "高拥挤",
+      "opportunity": 34.8
+    },
+    {
+      "name": "软饮料",
+      "crowding": 70.0,
       "change20": 0,
       "risk": "高拥挤",
-      "opportunity": 47.7
+      "opportunity": 44.1
     },
     {
-      "name": "综合乘用车",
-      "crowding": 68.9,
+      "name": "证券Ⅱ",
+      "crowding": 69.7,
       "change20": 0,
       "risk": "中度拥挤",
-      "opportunity": 39.3
+      "opportunity": 48.2
     },
     {
-      "name": "通信设备",
-      "crowding": 68.7,
+      "name": "证券Ⅲ",
+      "crowding": 69.7,
       "change20": 0,
       "risk": "中度拥挤",
-      "opportunity": 42.4
+      "opportunity": 48.2
     },
     {
-      "name": "银行",
-      "crowding": 68.4,
-      "change20": 6.1,
-      "risk": "中度拥挤",
-      "opportunity": 29.9
-    },
-    {
-      "name": "银行Ⅱ",
-      "crowding": 68.4,
-      "change20": 6.1,
-      "risk": "中度拥挤",
-      "opportunity": 29.9
-    },
-    {
-      "name": "火力发电",
-      "crowding": 67.9,
-      "change20": 0,
-      "risk": "中度拥挤",
-      "opportunity": 45.4
-    },
-    {
-      "name": "航运港口",
-      "crowding": 67.4,
-      "change20": 0,
-      "risk": "中度拥挤",
-      "opportunity": 47.6
-    },
-    {
-      "name": "油气及炼化工程",
-      "crowding": 65.6,
+      "name": "综合电力设备商",
+      "crowding": 69.3,
       "change20": 0,
       "risk": "中度拥挤",
       "opportunity": 42.7
     },
     {
-      "name": "高速公路",
-      "crowding": 65.6,
-      "change20": 0,
+      "name": "城商行Ⅲ",
+      "crowding": 67.7,
+      "change20": 5.5,
       "risk": "中度拥挤",
-      "opportunity": 47.0
+      "opportunity": 35.8
     },
     {
-      "name": "学历教育",
-      "crowding": 63.9,
+      "name": "聚氨酯",
+      "crowding": 67.0,
       "change20": 0,
       "risk": "中度拥挤",
-      "opportunity": 40.4
-    },
-    {
-      "name": "被动元件",
-      "crowding": 63.7,
-      "change20": 0,
-      "risk": "中度拥挤",
-      "opportunity": 43.6
+      "opportunity": 48.5
     },
     {
       "name": "纺织鞋类制造",
-      "crowding": 60.4,
-      "change20": 16.6,
-      "risk": "中度拥挤",
-      "opportunity": 36.2
-    },
-    {
-      "name": "IT服务Ⅱ",
-      "crowding": 60.2,
-      "change20": 0,
-      "risk": "中度拥挤",
-      "opportunity": 52.9
-    },
-    {
-      "name": "IT服务Ⅲ",
-      "crowding": 60.2,
-      "change20": 0,
-      "risk": "中度拥挤",
-      "opportunity": 52.9
-    },
-    {
-      "name": "其他电源设备Ⅱ",
-      "crowding": 58.9,
-      "change20": 0,
+      "crowding": 65.7,
+      "change20": 16.1,
       "risk": "中度拥挤",
       "opportunity": 43.6
     },
     {
-      "name": "板材",
-      "crowding": 58.0,
+      "name": "非银金融",
+      "crowding": 64.1,
       "change20": 0,
       "risk": "中度拥挤",
-      "opportunity": 53.0
+      "opportunity": 49.8
     },
     {
-      "name": "棉纺",
-      "crowding": 57.7,
-      "change20": 0,
+      "name": "银行",
+      "crowding": 64.0,
+      "change20": 7.1,
       "risk": "中度拥挤",
-      "opportunity": 49.4
+      "opportunity": 35.7
     },
     {
-      "name": "乘用车",
-      "crowding": 57.0,
-      "change20": 0,
+      "name": "银行Ⅱ",
+      "crowding": 64.0,
+      "change20": 7.1,
       "risk": "中度拥挤",
-      "opportunity": 44.4
+      "opportunity": 35.7
     },
     {
-      "name": "其他电源设备Ⅲ",
-      "crowding": 55.6,
+      "name": "钾肥",
+      "crowding": 62.9,
       "change20": 0,
       "risk": "中度拥挤",
-      "opportunity": 43.6
+      "opportunity": 50.6
+    },
+    {
+      "name": "机场",
+      "crowding": 62.8,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 44.6
     },
     {
       "name": "港口",
+      "crowding": 62.0,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 49.5
+    },
+    {
+      "name": "半导体",
+      "crowding": 61.0,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 42.4
+    },
+    {
+      "name": "国有大型银行Ⅲ",
+      "crowding": 58.6,
+      "change20": 14.2,
+      "risk": "中度拥挤",
+      "opportunity": 43.0
+    },
+    {
+      "name": "品牌化妆品",
+      "crowding": 58.3,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 47.5
+    },
+    {
+      "name": "其他专业工程",
+      "crowding": 57.6,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 42.6
+    },
+    {
+      "name": "啤酒",
+      "crowding": 57.5,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 49.0
+    },
+    {
+      "name": "调味发酵品Ⅱ",
+      "crowding": 57.1,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 45.6
+    },
+    {
+      "name": "调味发酵品Ⅲ",
+      "crowding": 57.1,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 45.6
+    },
+    {
+      "name": "风电整机",
+      "crowding": 56.2,
+      "change20": 0,
+      "risk": "中度拥挤",
+      "opportunity": 43.2
+    },
+    {
+      "name": "租赁",
       "crowding": 55.4,
       "change20": 0,
       "risk": "中度拥挤",
-      "opportunity": 50.2
+      "opportunity": 52.9
     },
     {
-      "name": "房产租赁经纪",
-      "crowding": 54.7,
+      "name": "冶钢辅料",
+      "crowding": 54.3,
       "change20": 0,
       "risk": "中性",
-      "opportunity": 53.6
-    },
-    {
-      "name": "综合电力设备商",
-      "crowding": 54.6,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 46.9
+      "opportunity": 46.7
     },
     {
       "name": "其他医疗服务",
@@ -369,25 +355,39 @@
       "opportunity": 40.7
     },
     {
-      "name": "分立器件",
-      "crowding": 51.5,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 54.8
-    },
-    {
       "name": "水力发电",
-      "crowding": 51.5,
-      "change20": -3.1,
+      "crowding": 54.2,
+      "change20": -5.2,
       "risk": "中性",
-      "opportunity": 41.9
+      "opportunity": 37.3
     },
     {
-      "name": "纺织化学制品",
-      "crowding": 50.7,
+      "name": "商用载货车",
+      "crowding": 51.2,
       "change20": 0,
       "risk": "中性",
-      "opportunity": 50.1
+      "opportunity": 45.7
+    },
+    {
+      "name": "黄金",
+      "crowding": 50.6,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.3
+    },
+    {
+      "name": "IT服务Ⅱ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "IT服务Ⅲ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
     },
     {
       "name": "LED",
@@ -439,13 +439,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "个护用品",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "中药Ⅱ",
       "crowding": 50.0,
       "change20": 0,
@@ -481,13 +474,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "人力资源服务",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "人工景区",
       "crowding": 50.0,
       "change20": 0,
@@ -495,14 +481,14 @@
       "opportunity": 50.0
     },
     {
-      "name": "仪器仪表",
+      "name": "仓储物流",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
       "opportunity": 50.0
     },
     {
-      "name": "休闲食品",
+      "name": "仪器仪表",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -517,6 +503,13 @@
     },
     {
       "name": "传媒",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "住宅开发",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -544,21 +537,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "保健品",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "信托",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "光伏主材",
+      "name": "元件",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -621,14 +600,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "公路货运",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "其他专业工程",
+      "name": "公用事业",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -747,6 +719,34 @@
       "opportunity": 50.0
     },
     {
+      "name": "其他电子Ⅱ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "其他电子Ⅲ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "其他电源设备Ⅱ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "其他电源设备Ⅲ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "其他石化",
       "crowding": 50.0,
       "change20": 0,
@@ -789,13 +789,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "其他运输设备",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "其他通信设备",
       "crowding": 50.0,
       "change20": 0,
@@ -804,13 +797,6 @@
     },
     {
       "name": "其他通用设备",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "其他酒类",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -916,6 +902,20 @@
     },
     {
       "name": "出版",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "制冷空调设备",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "动力煤",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1048,13 +1048,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "医美耗材",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "医药商业",
       "crowding": 50.0,
       "change20": 0,
@@ -1083,13 +1076,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "半导体材料",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "卫浴制品",
       "crowding": 50.0,
       "change20": 0,
@@ -1098,6 +1084,13 @@
     },
     {
       "name": "卫浴电器",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "印制电路板",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1139,14 +1132,21 @@
       "opportunity": 50.0
     },
     {
-      "name": "合成树脂",
+      "name": "厨卫电器",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
       "opportunity": 50.0
     },
     {
-      "name": "品牌化妆品",
+      "name": "厨房电器",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "合成树脂",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1181,7 +1181,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "啤酒",
+      "name": "园林工程",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1196,13 +1196,6 @@
     },
     {
       "name": "国防军工",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "国际工程",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1258,6 +1251,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "塑料包装",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "复合肥",
       "crowding": 50.0,
       "change20": 0,
@@ -1266,13 +1266,6 @@
     },
     {
       "name": "多业态零售",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "多元金融",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1307,6 +1300,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "学历教育",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "安防设备",
       "crowding": 50.0,
       "change20": 0,
@@ -1335,6 +1335,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "家用电器",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "家电零部件Ⅱ",
       "crowding": 50.0,
       "change20": 0,
@@ -1343,13 +1350,6 @@
     },
     {
       "name": "家电零部件Ⅲ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "家纺",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1412,13 +1412,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "工程机械整机",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "广告媒体",
       "crowding": 50.0,
       "change20": 0,
@@ -1475,6 +1468,41 @@
       "opportunity": 50.0
     },
     {
+      "name": "房产租赁经纪",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "房地产",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "房地产开发",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "房地产服务",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "房地产综合服务",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "摩托车",
       "crowding": 50.0,
       "change20": 0,
@@ -1524,6 +1552,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "数字芯片设计",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "文化用品",
       "crowding": 50.0,
       "change20": 0,
@@ -1552,28 +1587,14 @@
       "opportunity": 50.0
     },
     {
-      "name": "旅游综合",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "旅游零售Ⅱ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "旅游零售Ⅲ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "无机盐",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "普钢",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1601,21 +1622,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "期货",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "机器人",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "机场",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1630,6 +1637,13 @@
     },
     {
       "name": "机械设备",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "板材",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1651,6 +1665,13 @@
     },
     {
       "name": "果蔬加工",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "棉纺",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1685,6 +1706,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "橡胶助剂",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "民爆制品",
       "crowding": 50.0,
       "change20": 0,
@@ -1692,21 +1720,14 @@
       "opportunity": 50.0
     },
     {
-      "name": "氟化工",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "氨纶",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "氮肥",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "氯碱",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1797,6 +1818,34 @@
       "opportunity": 50.0
     },
     {
+      "name": "油服工程",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "油气及炼化工程",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "油气开采Ⅱ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "油气开采Ⅲ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "油田服务",
       "crowding": 50.0,
       "change20": 0,
@@ -1804,21 +1853,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "洗护用品",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "海洋捕捞",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "涂料",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1888,6 +1923,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "火电设备",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "炭黑",
       "crowding": 50.0,
       "change20": 0,
@@ -1902,20 +1944,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "炼油化工",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "烘焙食品",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "热力服务",
       "crowding": 50.0,
       "change20": 0,
@@ -1923,7 +1951,35 @@
       "opportunity": 50.0
     },
     {
+      "name": "焦炭Ⅱ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "焦炭Ⅲ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "煤化工",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "煤炭",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "煤炭开采",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -1966,6 +2022,13 @@
     },
     {
       "name": "燃气Ⅲ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "物业管理",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2021,6 +2084,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "玻璃玻纤",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "瓷砖地板",
       "crowding": 50.0,
       "change20": 0,
@@ -2049,6 +2119,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "电力",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "电力设备",
       "crowding": 50.0,
       "change20": 0,
@@ -2063,14 +2140,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "电子化学品Ⅱ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "电子化学品Ⅲ",
+      "name": "电子",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2126,6 +2196,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "电能综合服务",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "电视广播Ⅱ",
       "crowding": 50.0,
       "change20": 0,
@@ -2141,6 +2218,13 @@
     },
     {
       "name": "畜禽饲料",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "疫苗",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2189,13 +2273,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "磁性材料",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "磨具磨料",
       "crowding": 50.0,
       "change20": 0,
@@ -2218,13 +2295,6 @@
     },
     {
       "name": "种植业",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "稀土",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2266,7 +2336,21 @@
       "opportunity": 50.0
     },
     {
+      "name": "纯碱",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "纺织制造",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "纺织化学制品",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2357,13 +2441,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "聚氨酯",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "肉制品",
       "crowding": 50.0,
       "change20": 0,
@@ -2448,13 +2525,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "航空机场",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "航空装备Ⅱ",
       "crowding": 50.0,
       "change20": 0,
@@ -2469,7 +2539,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "航空运输",
+      "name": "航运",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2497,7 +2567,28 @@
       "opportunity": 50.0
     },
     {
+      "name": "被动元件",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "装修建材",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "装修装饰Ⅱ",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "装修装饰Ⅲ",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2511,6 +2602,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "计算机",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "计算机设备",
       "crowding": 50.0,
       "change20": 0,
@@ -2518,42 +2616,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "证券Ⅱ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "证券Ⅲ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "诊断服务",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "调味发酵品Ⅱ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "调味发酵品Ⅲ",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "贵金属",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2582,13 +2645,6 @@
     },
     {
       "name": "超市",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "跨境物流",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2637,13 +2693,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "软饮料",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "轻工制造",
       "crowding": 50.0,
       "change20": 0,
@@ -2679,7 +2728,56 @@
       "opportunity": 50.0
     },
     {
+      "name": "通信",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "通信工程及服务",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "通信应用增值服务",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "通信服务",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "通信线缆及配套",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "通信终端及配件",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "通信网络设备及器件",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
+      "name": "通信设备",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2721,13 +2819,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "金属包装",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "金属新材料",
       "crowding": 50.0,
       "change20": 0,
@@ -2736,13 +2827,6 @@
     },
     {
       "name": "金融信息服务",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "金融控股",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2770,14 +2854,14 @@
       "opportunity": 50.0
     },
     {
-      "name": "钢铁管材",
+      "name": "钢铁",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
       "opportunity": 50.0
     },
     {
-      "name": "钨",
+      "name": "钢铁管材",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2791,20 +2875,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "钼",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "钾肥",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "铁矿石",
       "crowding": 50.0,
       "change20": 0,
@@ -2812,7 +2882,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "铁路运输",
+      "name": "铁路公路",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2875,6 +2945,13 @@
       "opportunity": 50.0
     },
     {
+      "name": "长材",
+      "crowding": 50.0,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 50.0
+    },
+    {
       "name": "门户网站",
       "crowding": 50.0,
       "change20": 0,
@@ -2882,28 +2959,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "防水材料",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "院线",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "零食",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "非白酒",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2931,13 +2987,6 @@
       "opportunity": 50.0
     },
     {
-      "name": "非银金融",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "面板",
       "crowding": 50.0,
       "change20": 0,
@@ -2946,20 +2995,6 @@
     },
     {
       "name": "鞋帽及其他",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "预加工食品",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "风电整机",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -2980,21 +3015,7 @@
       "opportunity": 50.0
     },
     {
-      "name": "食品加工",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
       "name": "食品及饲料添加剂",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "食品饮料",
       "crowding": 50.0,
       "change20": 0,
       "risk": "中性",
@@ -3036,368 +3057,347 @@
       "opportunity": 50.0
     },
     {
-      "name": "黄金",
-      "crowding": 50.0,
-      "change20": 0,
+      "name": "农商行Ⅲ",
+      "crowding": 49.0,
+      "change20": 6.2,
       "risk": "中性",
-      "opportunity": 50.0
-    },
-    {
-      "name": "黑色家电",
-      "crowding": 50.0,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 47.3
-    },
-    {
-      "name": "房屋建设Ⅱ",
-      "crowding": 49.5,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 52.4
-    },
-    {
-      "name": "房屋建设Ⅲ",
-      "crowding": 49.5,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 52.4
-    },
-    {
-      "name": "商用载货车",
-      "crowding": 48.1,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 47.3
-    },
-    {
-      "name": "电能综合服务",
-      "crowding": 47.2,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 49.0
-    },
-    {
-      "name": "普钢",
-      "crowding": 46.2,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 55.8
-    },
-    {
-      "name": "玻璃玻纤",
-      "crowding": 45.1,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 46.7
-    },
-    {
-      "name": "房地产服务",
-      "crowding": 44.6,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 56.0
+      "opportunity": 37.8
     },
     {
       "name": "保险Ⅱ",
-      "crowding": 42.8,
+      "crowding": 48.3,
       "change20": 0,
       "risk": "中性",
-      "opportunity": 54.6
+      "opportunity": 54.5
     },
     {
       "name": "保险Ⅲ",
-      "crowding": 42.8,
+      "crowding": 48.3,
       "change20": 0,
       "risk": "中性",
-      "opportunity": 54.6
-    },
-    {
-      "name": "铁路公路",
-      "crowding": 41.1,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 52.9
-    },
-    {
-      "name": "股份制银行Ⅲ",
-      "crowding": 40.9,
-      "change20": 6.6,
-      "risk": "中性",
-      "opportunity": 35.8
-    },
-    {
-      "name": "其他电子Ⅱ",
-      "crowding": 40.6,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 51.8
-    },
-    {
-      "name": "其他电子Ⅲ",
-      "crowding": 40.6,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 51.8
-    },
-    {
-      "name": "国有大型银行Ⅲ",
-      "crowding": 40.5,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 40.4
-    },
-    {
-      "name": "物业管理",
-      "crowding": 40.5,
-      "change20": 0,
-      "risk": "中性",
-      "opportunity": 56.8
-    },
-    {
-      "name": "仓储物流",
-      "crowding": 39.6,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 47.4
-    },
-    {
-      "name": "电力",
-      "crowding": 38.1,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 51.6
-    },
-    {
-      "name": "煤炭",
-      "crowding": 38.0,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 53.9
-    },
-    {
-      "name": "商业地产",
-      "crowding": 36.1,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 57.6
-    },
-    {
-      "name": "半导体",
-      "crowding": 35.5,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 49.7
-    },
-    {
-      "name": "油气开采Ⅱ",
-      "crowding": 33.2,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 56.8
-    },
-    {
-      "name": "油气开采Ⅲ",
-      "crowding": 33.2,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 56.8
-    },
-    {
-      "name": "住宅开发",
-      "crowding": 32.6,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 57.9
-    },
-    {
-      "name": "商用车",
-      "crowding": 31.9,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 54.4
-    },
-    {
-      "name": "房地产综合服务",
-      "crowding": 31.4,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 50.5
-    },
-    {
-      "name": "油服工程",
-      "crowding": 30.4,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 55.1
+      "opportunity": 54.5
     },
     {
       "name": "核力发电",
-      "crowding": 27.7,
+      "crowding": 48.0,
       "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 54.7
+      "risk": "中性",
+      "opportunity": 48.9
     },
     {
-      "name": "计算机",
-      "crowding": 27.5,
+      "name": "火力发电",
+      "crowding": 45.2,
       "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 50.2
+      "risk": "中性",
+      "opportunity": 50.7
     },
     {
-      "name": "房地产",
-      "crowding": 27.2,
+      "name": "风力发电",
+      "crowding": 44.9,
       "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 59.7
+      "risk": "中性",
+      "opportunity": 47.2
     },
     {
-      "name": "快递",
-      "crowding": 26.1,
+      "name": "预加工食品",
+      "crowding": 44.3,
       "change20": 0,
-      "risk": "低拥挤",
+      "risk": "中性",
+      "opportunity": 49.6
+    },
+    {
+      "name": "家纺",
+      "crowding": 44.1,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 51.5
+    },
+    {
+      "name": "零食",
+      "crowding": 44.1,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 54.2
+    },
+    {
+      "name": "防水材料",
+      "crowding": 43.4,
+      "change20": 0,
+      "risk": "中性",
       "opportunity": 57.6
     },
     {
-      "name": "制冷空调设备",
-      "crowding": 25.5,
+      "name": "贵金属",
+      "crowding": 40.2,
+      "change20": 0,
+      "risk": "中性",
+      "opportunity": 53.2
+    },
+    {
+      "name": "钨",
+      "crowding": 39.7,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 52.9
+    },
+    {
+      "name": "其他运输设备",
+      "crowding": 39.4,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 51.3
+    },
+    {
+      "name": "非白酒",
+      "crowding": 39.1,
       "change20": 0,
       "risk": "低拥挤",
       "opportunity": 51.9
     },
     {
-      "name": "园林工程",
-      "crowding": 24.8,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 60.1
-    },
-    {
-      "name": "电子",
-      "crowding": 24.1,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 53.1
-    },
-    {
-      "name": "房地产开发",
-      "crowding": 23.0,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 60.7
-    },
-    {
-      "name": "风力发电",
-      "crowding": 21.9,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 53.8
-    },
-    {
-      "name": "钢铁",
-      "crowding": 20.4,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 63.6
-    },
-    {
-      "name": "塑料包装",
-      "crowding": 20.0,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 54.6
-    },
-    {
-      "name": "交通运输",
-      "crowding": 19.5,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 58.3
-    },
-    {
-      "name": "焦煤",
-      "crowding": 18.9,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 56.7
-    },
-    {
-      "name": "长材",
-      "crowding": 18.9,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 61.5
-    },
-    {
       "name": "电动乘用车",
-      "crowding": 18.0,
+      "crowding": 38.4,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 55.6
+      "opportunity": 49.8
     },
     {
-      "name": "公用事业",
+      "name": "商用车",
+      "crowding": 37.9,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 52.0
+    },
+    {
+      "name": "公路货运",
+      "crowding": 37.8,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 59.1
+    },
+    {
+      "name": "半导体材料",
+      "crowding": 36.5,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 47.8
+    },
+    {
+      "name": "旅游综合",
+      "crowding": 34.6,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 47.9
+    },
+    {
+      "name": "炼油化工",
+      "crowding": 34.1,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 56.5
+    },
+    {
+      "name": "乘用车",
+      "crowding": 33.6,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 49.8
+    },
+    {
+      "name": "氟化工",
+      "crowding": 33.6,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 53.2
+    },
+    {
+      "name": "休闲食品",
+      "crowding": 32.6,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 55.1
+    },
+    {
+      "name": "医美耗材",
+      "crowding": 30.3,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 51.1
+    },
+    {
+      "name": "综合乘用车",
+      "crowding": 30.2,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 49.2
+    },
+    {
+      "name": "食品加工",
+      "crowding": 29.2,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 51.1
+    },
+    {
+      "name": "烘焙食品",
+      "crowding": 27.7,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 51.9
+    },
+    {
+      "name": "航运港口",
+      "crowding": 27.3,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 59.6
+    },
+    {
+      "name": "人力资源服务",
+      "crowding": 26.9,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 59.0
+    },
+    {
+      "name": "玻纤制造",
+      "crowding": 26.0,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 53.7
+    },
+    {
+      "name": "其他酒类",
+      "crowding": 25.4,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 51.4
+    },
+    {
+      "name": "磁性材料",
+      "crowding": 23.9,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 52.2
+    },
+    {
+      "name": "金融控股",
+      "crowding": 23.1,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 57.8
+    },
+    {
+      "name": "黑色家电",
+      "crowding": 21.4,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 54.0
+    },
+    {
+      "name": "跨境物流",
+      "crowding": 21.3,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 59.1
+    },
+    {
+      "name": "铁路运输",
+      "crowding": 19.6,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 57.5
+    },
+    {
+      "name": "工程机械整机",
+      "crowding": 18.7,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 59.1
+    },
+    {
+      "name": "金属包装",
+      "crowding": 18.7,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 55.0
+    },
+    {
+      "name": "食品饮料",
+      "crowding": 17.7,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 56.9
+    },
+    {
+      "name": "期货",
       "crowding": 17.2,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 57.1
+      "opportunity": 57.8
     },
     {
-      "name": "厨卫电器",
-      "crowding": 12.4,
+      "name": "个护用品",
+      "crowding": 16.1,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 54.5
+      "opportunity": 55.7
     },
     {
-      "name": "家用电器",
-      "crowding": 12.2,
+      "name": "交通运输",
+      "crowding": 15.1,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 60.4
+      "opportunity": 59.0
     },
     {
-      "name": "氯碱",
-      "crowding": 12.1,
-      "change20": 0,
-      "risk": "低拥挤",
-      "opportunity": 54.9
-    },
-    {
-      "name": "数字芯片设计",
-      "crowding": 11.9,
+      "name": "焦煤",
+      "crowding": 11.5,
       "change20": 0,
       "risk": "低拥挤",
       "opportunity": 58.2
     },
     {
-      "name": "煤炭开采",
-      "crowding": 11.9,
+      "name": "商业地产",
+      "crowding": 10.2,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 60.9
+      "opportunity": 65.4
     },
     {
-      "name": "装修装饰Ⅱ",
-      "crowding": 11.2,
+      "name": "房屋建设Ⅱ",
+      "crowding": 10.0,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 65.7
+      "opportunity": 63.8
     },
     {
-      "name": "装修装饰Ⅲ",
-      "crowding": 11.2,
+      "name": "房屋建设Ⅲ",
+      "crowding": 10.0,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 65.7
+      "opportunity": 63.8
     },
     {
-      "name": "动力煤",
-      "crowding": 8.4,
+      "name": "钼",
+      "crowding": 9.7,
       "change20": 0,
       "risk": "低拥挤",
-      "opportunity": 61.9
+      "opportunity": 61.6
+    },
+    {
+      "name": "多元金融",
+      "crowding": 8.3,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 62.1
+    },
+    {
+      "name": "高速公路",
+      "crowding": 7.6,
+      "change20": 0,
+      "risk": "低拥挤",
+      "opportunity": 62.1
     }
   ],
   "history_points": 26000,
